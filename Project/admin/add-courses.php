@@ -82,7 +82,7 @@ echo"<script>alert('Course has been added successfully');</script>";
 
 												<div class="col-sm-8 col-sm-offset-2">
 													
-													<input class="btn btn-primary" type="submit" name="submit" value="Add course">
+													<input class="btn btn-primary" type="submit" name="submit" value="Add course" style="width: 200px;font-size: large;border-radius: 15px;"> 
 												</div>
 											</div>
 

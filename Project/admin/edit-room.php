@@ -92,7 +92,7 @@ echo"<script>alert('Room Details has been Updated successfully');</script>";
 <?php } ?>
 												<div class="col-sm-8 col-sm-offset-2">
 													
-													<input class="btn btn-primary" type="submit" name="submit" value="Update Room Details ">
+													<input class="btn btn-primary" type="submit" name="submit" value="Update Room Details " style="width: 200px;font-size: large;">
 												</div>
 											</div>
 

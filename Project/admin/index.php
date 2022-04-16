@@ -57,17 +57,17 @@ $stmt=$mysqli->prepare("SELECT username,email,password,id FROM admin WHERE (user
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<h1 class="text-center text-bold text-light mt-4x">Hostel Management System</h1>
-						<div class="well row pt-2x pb-3x bk-light">
+						<div class="well row pt-2x pb-3x bk-light"style="border: 1px;border-radius: 15px;">
 							<div class="col-md-8 col-md-offset-2">
 
 								<form action="" class="mt" method="post">
 									<label for="" class="text-uppercase text-sm">Your Username or Email</label>
-									<input type="text" placeholder="Username" name="username" class="form-control mb">
+									<input type="text" placeholder="Username" name="username" class="form-control mb" style=" border-radius: 15px;">
 									<label for="" class="text-uppercase text-sm">Password</label>
-									<input type="password" placeholder="Password" name="password" class="form-control mb">
+									<input type="password" placeholder="Password" name="password" class="form-control mb" style=" border-radius: 15px;">
 
 
-									<input type="submit" name="login" class="btn btn-primary btn-block" value="login" >
+									<input type="submit" name="login" class="btn btn-primary btn-block" value="login" style="border: 1px; border-radius: 15px; background-color: #11baff;font-size: large;" >
 								</form>
 							</div>
 						</div>

@@ -389,8 +389,8 @@ while($row=$res->fetch_object())
 
 
 <div class="col-sm-6 col-sm-offset-4">
-<button class="btn btn-default" type="submit">Cancel</button>
-<input type="submit" name="submit" Value="Register" class="btn btn-primary">
+<button class="btn btn-default" type="submit" style="width: 100px;font-size: large;border-radius: 15px;">Cancel</button>
+<input type="submit" name="submit" Value="Register" class="btn btn-primary" style="width: 200px;font-size: large;">
 </div>
 </form>
 

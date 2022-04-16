@@ -157,7 +157,7 @@ Last Updation date : &nbsp; <?php echo $row->updationDate;?>
 
 <div class="col-sm-6 col-sm-offset-4">
 
-<input type="submit" name="update" Value="Update Profile" class="btn btn-primary">
+<input type="submit" name="update" Value="Update Profile" class="btn btn-primary" style="width: 200px;font-size: large;">
 </div>
 </form>
 

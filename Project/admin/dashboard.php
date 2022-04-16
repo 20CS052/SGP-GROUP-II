@@ -46,7 +46,7 @@ check_login();
 							<div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<div class="panel panel-default">
+										<div class="panel panel-default" style="border-radius: 15px;">
 											<div class="panel-body bk-primary text-light">
 												<div class="stat-panel text-center">
 
@@ -63,11 +63,11 @@ $stmt->close();
 													<div class="stat-panel-title text-uppercase"> Students</div>
 												</div>
 											</div>
-											<a href="manage-students.php" class="block-anchor panel-footer">Full Detail <i class="fa fa-arrow-right"></i></a>
+											<a href="manage-students.php" class="block-anchor panel-footer" style="text-align: center;">Full Detail <i class="fa fa-arrow-right"></i></a>
 										</div>
 									</div>
 									<div class="col-md-3">
-										<div class="panel panel-default">
+										<div class="panel panel-default" style="border-radius: 15px;">
 											<div class="panel-body bk-success text-light">
 												<div class="stat-panel text-center">
 <?php
@@ -86,7 +86,7 @@ $stmt1->close();
 										</div>
 									</div>
 									<div class="col-md-3">
-										<div class="panel panel-default">
+										<div class="panel panel-default" style="border-radius: 15px;">
 											<div class="panel-body bk-info text-light">
 												<div class="stat-panel text-center">
 <?php
@@ -157,11 +157,5 @@ $stmt2->close();
 
 </body>
 
-<div class="foot"><footer>
-<p> Brought To You By <a href="https://code-projects.org/">Code-Projects</p>
-</footer> </div>
-
-
-<style> .foot{text-align: center; border: 1px solid black;}</style>
 
 </html>

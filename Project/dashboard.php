@@ -45,8 +45,8 @@ check_login();
 						<div class="row">
 							<div class="col-md-12">
 								<div class="row">
-									<div class="col-md-3">
-										<div class="panel panel-default">
+									<div class="col-md-4">
+										<div class="panel panel-default" style="border-radius: 15px;">
 											<div class="panel-body bk-primary text-light">
 												<div class="stat-panel text-center">
 
@@ -56,11 +56,11 @@ check_login();
 
 												</div>
 											</div>
-											<a href="my-profile.php" class="block-anchor panel-footer">Full Detail <i class="fa fa-arrow-right"></i></a>
+											<a href="my-profile.php" class="block-anchor panel-footer"style="text-align: center;">Full Detail <i class="fa fa-arrow-right"></i></a>
 										</div>
 									</div>
-									<div class="col-md-3">
-										<div class="panel panel-default">
+									<div class="col-md-4">
+										<div class="panel panel-default" style="border-radius: 15px;">
 											<div class="panel-body bk-success text-light">
 												<div class="stat-panel text-center">
 

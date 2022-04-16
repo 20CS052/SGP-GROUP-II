@@ -132,8 +132,8 @@ $aid=$_SESSION['id'];
 
 
 												<div class="col-sm-8 col-sm-offset-2">
-													<button class="btn btn-default" type="submit">Cancel</button>
-													<input class="btn btn-primary" type="submit" name="update" value="Update Profile">
+													<button class="btn btn-default" type="submit" style="width: 100px;font-size: large;border-radius: 15px;">Cancel</button>
+													<input class="btn btn-primary" type="submit" name="update" value="Update Profile" style="width: 200px;font-size: large;">
 												</div>
 											</div>
 
@@ -176,8 +176,8 @@ $aid=$_SESSION['id'];
 
 
 												<div class="col-sm-6 col-sm-offset-4">
-													<button class="btn btn-default" type="submit">Cancel</button>
-													<input type="submit" name="changepwd" Value="Change Password" class="btn btn-primary">
+													<button class="btn btn-default" type="submit" style="width: 100px;font-size: large;border-radius: 15px;">Cancel</button>
+													<input type="submit" name="changepwd" Value="Change Password" class="btn btn-primary" style="width: 200px;font-size: large;">
 											</div>
 
 										</form>

@@ -42,22 +42,16 @@ check_login();
 									<thead>
 										<tr>
 											<th>Sno.</th>
-											<th>User Id</th>
+											<!-- <th>User Id</th> -->
 											<th>User Email</th>
-											<th>IP</th>
-											<th>City</th>
-											<th>Country</th>
 											<th>Login Time</th>
 										</tr>
 									</thead>
 									<tfoot>
 										<tr>
 											<th>Sno.</th>
-											<th>User Id</th>
+											<!-- <th>User Id</th> -->
 											<th>User Email</th>
-											<th>IP</th>
-											<th>City</th>
-											<th>Country</th>
 											<th>Login Time</th>
 										</tr>
 									</tfoot>
@@ -74,11 +68,8 @@ while($row=$res->fetch_object())
 	  {
 	  	?>
 <tr><td><?php echo $cnt;;?></td>
-<td><?php echo $row->userId;?></td>
+<!-- <td></?php echo $row->userId;?></td> -->
 <td><?php echo $row->userEmail;?></td>
-<td><?php echo $row->userIp;?></td>
-<td><?php echo $row->city;?></td>
-<td><?php echo $row->country;?></td>
 <td><?php echo $row->loginTime;?></td>
 										</tr>
 									<?php

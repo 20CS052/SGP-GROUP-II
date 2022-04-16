@@ -195,9 +195,29 @@ while($row=$res->fetch_object())
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Total Amount</label>
+<!-- <label class="col-sm-2 control-label">Total Amount</label> -->
 <div class="col-sm-8">
-<input type="text" name="ta" id="ta"  class="result form-control" >
+
+	<!-- changethis -->
+
+	
+<!-- </?php echo$_GET["duration"] ?>
+</?php echo $dr=$row->duration;?>
+<input type="text" name="ta" id="ta"  class="result form-control" readonly
+Total Fee : 
+</?php if($row->foodstatus==1)
+{ 
+$fd=2000; 
+echo (($duration*$fpm)+$fd);
+}
+else
+{
+echo $duration*$fpm;
+}
+?>
+> -->
+
+
 </div>
 </div>
 
@@ -409,8 +429,8 @@ while($row=$res->fetch_object())
 
 
 <div class="col-sm-6 col-sm-offset-4">
-<button class="btn btn-default" type="submit">Cancel</button>
-<input type="submit" name="submit" Value="Register" class="btn btn-primary">
+<button class="btn btn-default" type="submit" style="width: 100px;font-size: large;">Cancel</button>
+<input type="submit" name="submit" Value="Register" class="btn btn-primary" style="width: 200px;font-size: large;">
 </div>
 </form>
 

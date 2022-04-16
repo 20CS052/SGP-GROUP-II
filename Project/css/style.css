@@ -94,10 +94,10 @@ a:hover {
 *      Background Colors        *
 ****************************/
 .bk-primary {
-  background: #325d88;
+  background: #0080ff;
 }
 .bk-success {
-  background: #93c54b;
+  background: #70bd00;
 }
 .bk-warning {
   background: #f47c3c;
@@ -543,6 +543,7 @@ li {
   padding-bottom: 15px;
   margin-bottom: 20px;
   border-bottom: 1px solid #f0f0f0;
+  padding-top: 20px;
 }
 .brand {
   background: #3e454c;
@@ -554,14 +555,14 @@ li {
 }
 .brand .logo {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 10px;
   float: left;
   display: block;
   width: 200px;
 }
 @media only screen and (min-width: 992px) {
   .brand .logo {
-    width: 250px;
+    width: 400px;
   }
 }
 .brand .logo img {
@@ -612,7 +613,8 @@ li {
 }
 .brand .ts-profile-nav .ts-account > a {
   width: 180px;
-  background: #2c3136;
+  background: #000;
+  border-radius: 30px 0px 0px 30px;
 }
 .brand .ts-profile-nav .ts-account .ts-avatar {
   border-radius: 50%;
@@ -640,7 +642,7 @@ li {
   background-color: #b4b4b4;
 }
 .ts-sidebar {
-  background: #2c3136;
+  background: #000;
   max-height: 0;
   transition: max-height 0.3s;
   overflow: hidden;
@@ -673,7 +675,7 @@ li {
   }
 }
 .ts-sidebar-menu .ts-label {
-  color: #585c64;
+  color: #69f;;
   font-weight: bold;
   padding: 8px 15px;
   text-transform: uppercase;

@@ -94,7 +94,7 @@ return true;
 
 						<div class="row">
 					<div class="col-md-6 col-md-offset-3">
-						<div class="well row pt-2x pb-3x bk-light">
+						<div class="well row pt-2x pb-3x bk-light" style="border: 1px;border-radius:15px">
 							<div class="col-md-8 col-md-offset-2">
 							
 								<form action="" class="mt" method="post">
@@ -104,7 +104,7 @@ return true;
 									<input type="password" placeholder="Password" name="password" class="form-control mb">
 									
 
-									<input type="submit" name="login" class="btn btn-primary btn-block" value="login" >
+									<input type="submit" name="login" class="btn btn-primary btn-block" value="login" style="font-size: large;">
 								</form>
 							</div>
 						</div>
